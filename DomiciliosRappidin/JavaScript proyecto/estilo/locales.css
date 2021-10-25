@@ -1,0 +1,85 @@
+body{
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+header {
+    height: 165px;
+}
+header #logo {
+    border: 5px whitesmoke;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px  whitesmoke;
+	width: 155px;
+    float:left;
+    top: 5px;
+    right: -15%;
+    position: relative;
+}
+header h1 {
+    display: block;
+    margin: auto;
+    background-color:black;
+    width: 400px;
+    text-align: center;
+    font-size: 46px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    color: orange;
+    text-shadow: 4px 4px 4px yellow;
+}
+h2 {
+    display: block;
+    margin: auto;
+    background-color:black;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 36px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    color: orange;
+}
+section {
+    background-color: #371111  ;
+    width: 400px;
+    padding: 15px 15px 15px 15px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    text-align: center;
+}
+section h3 {
+    display: block;
+    margin: auto;
+    background-color:black;
+    width: 300px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 26px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    color: orange;
+}
+section p {
+    display: block;
+    margin: auto;
+    background-color:black;
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    color: orange;
+}
+article {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+article img {
+    width: 250px;
+}

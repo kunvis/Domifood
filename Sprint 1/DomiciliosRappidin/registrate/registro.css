@@ -1,0 +1,75 @@
+body{
+    background-image:url(../imagenes/fondofood.jpeg);
+    background-size: cover;
+    margin: 10px;
+    height: 100vh;
+    background-color: #371111  ;
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: rgba(210, 180, 140, 0.904);
+    box-shadow: 1px 1px 15px tan;}
+    header a{
+        text-decoration: none;}
+        header img {
+            border-radius: 15px;
+            float:left;
+            top: -15px;
+            left: 230px;
+            position: relative;}
+            header h1 {
+                font-family: cursive, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                font-size: 60px;
+                color: #371111;}
+h2 {
+    text-align: center;
+    color:#371111;
+    font-size: 35px;
+}
+select {
+    width: 300px;
+}
+form {
+    background-color: whitesmoke;
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+form .uno{
+    position: absolute;
+    float: left;
+    left: 350px;
+    text-align: left;
+}
+form .dos{
+    position: absolute;
+    float: right;
+    right: 350px;
+}
+form .tres{
+    position: absolute;
+    top: 630px;
+    left: 630px;
+}
+input type[text]{
+    text-transform: lowercase;}
+    input#inicio{
+        width: 100px;}
+        input#borrar{
+            width: 100px;}
+            input#enviar{
+                width: 100px;}
+                a input{
+                    margin: 20px 20px 20px 20px;
+                    display: flex;
+                    float: right;
+                    right: 30px;
+                    font-size: 15px;}
+footer {
+    background-color: tan;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(210, 180, 140, 0.795);
+}

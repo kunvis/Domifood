@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+    font-size: 18px;
+}
+h2#h2 {
+    color: black;
+}
+td input#cambios {
+    text-decoration: none;
+    background-color: green;
+    color: whitesmoke;
+    padding: 5px;
+    border: green;
+    border-radius: 10px;
+}
+strong#form h2 {
+    color: black;
+    font-size: 34px;
+}
+table {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 6px;
+    text-align: center;
+}
+    table.table {
+        box-shadow: 1px 1px 15px #f79426;}
+table tr#header td {
+    font-size: 24px;
+    padding: 3px;
+}
+td a#editar {
+    text-decoration: none;
+    background-color: #38b6ff77;
+    color: whitesmoke;
+    padding: 5px;
+    border: #38b6ff77;
+    border-radius: 10px;
+}
+td a#eliminar {
+    text-decoration: none;
+    background-color: #ff5757;
+    color: whitesmoke;
+    padding: 5px;
+    border: #ff5757;
+    border-radius: 10px;
+}
+form{
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 15px #f79426;
+    border-radius: 15px;
+    padding: 25px;
+    width: 500px;
+    font-size: 20px;
+}
+td input#reset {
+    background-color: #ff5757;
+    color: whitesmoke;
+    padding: 5px;
+    border: #ff5757;
+    border-radius: 10px;
+}
+td input#enviar {
+    background-color: #7ed957;
+    color: whitesmoke;
+    padding: 5px;
+    border: #7ed957;
+    border-radius: 10px;
+}
+button {
+    background-color: grey;
+    padding: 10px;
+    border: 5px #2d0749a9;
+    border-radius: 25px;
+}
+    button a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+        button:hover {
+            background-color:orangered;
+            color:#2d0749a9;
+            border-radius: 15px;
+        }
+footer.footer {
+    background-color: #f7962644;
+    width: auto;
+    box-shadow: 1px 1px 15px #f79426;
+    display:flex;
+    align-items:center;
+    padding: 0px 0px 0px 400px;}

@@ -1,0 +1,25 @@
+body{
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    display: block;
+    margin: auto;
+    background-color:rgba(210, 180, 140, 0.904);
+    width: 650px;
+    text-align: center;
+    font-size: 60px;
+    box-shadow: 1px 1px 5px tan;
+    color:#371111;
+    padding: 10px 10px 10px 10px;
+}
+p {
+    display: block;
+    margin: auto;
+    background-color:rgba(210, 180, 140, 0.904);
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 1px 1px 5px tan;
+    color: #371111;
+}

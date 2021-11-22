@@ -1,0 +1,111 @@
+body{
+    background-image:url(../imagenes/fondofood.jpeg);
+    background-size: cover;
+    margin: 10px;
+    height: 100vh;
+    background-color: #371111  ;
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: rgba(210, 180, 140, 0.815);
+    box-shadow: 1px 1px 15px tan;
+}
+header a{
+    text-decoration: none;
+}
+header img {
+    border-radius: 15px;
+    float:left;
+    top: -15px;
+    left: 230px;
+    position: relative;
+}
+header h1 {
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: #371111;
+}
+nav{
+    background-color: rgba(210, 180, 140, 0.705);
+    text-align: center;
+    box-shadow: 1px 1px 15px tan;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 23px 150px;
+}
+nav li a {
+    width: auto;
+    text-decoration: none;
+    font-size: 27px;
+    color:#371111;
+}
+nav li a:hover{
+    background-color: #371111;; 
+    padding: 3px 3px 3px 3px;
+    color:tan; 
+    transition: all 0.5s ease 0s;
+}
+.info1 {
+    background-color: rgba(210, 180, 140, 0.747);
+    width: 800px;
+    margin-left: 500px;
+    padding: 15px 15px 25px 15px;
+    font-size: 18px;
+    box-shadow: 1px 1px 15px tan;}
+    .info1 #titulo1 {
+    color:#371111;
+    font-size: 25px;
+    text-align: center;}
+        .info1 img { 
+        padding: 0px 30px 0px 0px;
+        float: right;
+    }
+    .info2 {
+        background-color: rgba(210, 180, 140, 0.747);
+        width: 800px;
+        padding: 15px 15px 25px 15px;
+        font-size: 18px;
+        box-shadow: 1px 1px 15px tan;}
+        .info2 #titulo2 {
+        color:#371111;
+        font-size: 25px;
+        text-align: center;}
+            .info2 img { 
+            padding: 0px 30px 0px 0px;
+            float: left;}
+            .boton{
+                background-color:rgba(210, 180, 140, 0.815);
+                box-shadow: 1px 1px 15px tan;
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: -40px;
+                text-align: center;
+                float: left;}
+                .boton a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 20px;
+                    }   
+            .boton1{
+                background-color:rgba(210, 180, 140, 0.815);
+                box-shadow: 1px 1px 15px tan;
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: -40px;
+                text-align: center;
+                float:right;}
+                .boton1 a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 20px;}            
+.app {
+    background-color: tan;
+    width: 400px;
+}
+footer {
+    background-color: tan;
+    text-align: center;
+}

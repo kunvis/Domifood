@@ -1,0 +1,156 @@
+body{
+    background-image:url(imagenes/fondofood.jpeg);
+    background-size: cover;
+    margin: 10px;
+    height: 100vh;
+    background-color: #371111  ;
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+h2{
+    background-color: rgba(210, 180, 140, 0.856);
+    padding: 5px;
+    color: #371111;
+}
+header {
+    background-color: rgba(210, 180, 140, 0.904);
+    box-shadow: 1px 1px 15px tan;
+}
+header a{
+    text-decoration: none;
+}
+header img {
+    border-radius: 15px;
+    float:left;
+    top: -15px;
+    left: 230px;
+    position: relative;
+}
+header h1 {
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: #371111;
+}
+nav{
+    background-color: rgba(210, 180, 140, 0.788);
+    text-align: center;
+    box-shadow: 1px 1px 15px tan;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 120px;
+}
+nav li a {
+    width: auto;
+    text-decoration: none;
+    font-size: 27px;
+    color:#371111;
+}
+nav li a:hover{
+    background-color: #371111;; 
+    padding: 3px 3px 3px 3px;
+    color:tan; 
+    transition: all 0.5s ease 0s;
+}
+.info1 {
+    background-color: rgba(210, 180, 140, 0.87);
+    width: 800px;
+    padding: 15px 15px 25px 15px;
+    font-size: 18px;
+    box-shadow: 1px 1px 15px tan;}
+    .info1 #titulo {
+    color:#371111;
+    text-align: center;}
+        .info1 img { 
+        padding: 0px 30px 0px 0px;
+        float: left;}
+.info2 {
+    background-color: rgba(210, 180, 140, 0.808);
+    width: 350px;
+    height: 230px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    box-shadow: 1px 1px 15px tan;}
+    .info2 #titulo {
+        color:#371111;}
+            .info2 img {
+            float: left;
+            padding: 5px}
+                .info2 #descrip {
+                    width: auto;
+                    color:#371111;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 20px;}
+.info3 {
+    background-color: rgba(210, 180, 140, 0.856);
+    width: 400px;
+    height: 210px;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    top: 517px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px tan;}
+    .info3 #titulo {
+        color:#371111;}
+            .info3 img {
+            padding: 5px ; 
+            float: left;}
+                .info3 #descrip {
+                    width: auto;
+                    color:#371111;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 20px;}
+.info4 {
+    background-color: rgba(210, 180, 140, 0.856);
+    width: 450px;
+    height: 172px;
+    text-align: center;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 293px;
+    padding: 5px;
+    box-shadow: 1px 1px 15px tan;}
+    .info4 #titulo {
+        color:#371111;}
+            .info4 img {
+            padding: 5px ; 
+            float: right;}
+                .info4 #descrip {
+                    width: auto;
+                    color:#371111;
+                    text-align: center;
+                    font-size: 16px;
+                    padding: 10px;}
+.app {
+    background-color: rgba(210, 180, 140, 0.856);
+    width: 450px;
+    height: 265px;
+    text-align: center;
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 490px;
+    padding: 5px;
+    box-shadow: 1px 1px 15px tan;}
+        .app img {
+        padding: 5px ;}
+            .app #descrip {
+                width: auto;
+                color:#371111;
+                text-align: center;
+                font-size: 16px;
+                padding: 5px;}
+footer {
+    background-color: tan;
+    text-align: center;
+    position: absolute;
+    top: 780px;
+    width: 1330px;
+    box-shadow: 1px 1px 15px rgba(210, 180, 140, 0.795);
+}

@@ -1,0 +1,46 @@
+h2{
+    color: #f79426;
+}form {
+    background-color:white;
+    width: 700px;
+    padding: 15px 15px 25px 15px;
+    font-size: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.795);
+}
+footer.footer {
+    background-color: #f7962644;
+    width: auto;
+    box-shadow: 1px 1px 15px #f79426;
+    display:flex;
+    align-items:center;
+    padding: 0px 0px 0px 400px;}
+    input#borra {
+        background-color:#ff5757;
+        padding: 10px;
+        border: 5px whitesmoke;
+        border-radius: 25px;
+    }
+        input#borra:hover {
+                color:white;
+                border-radius: 15px;
+            }
+    input#enviar {
+        background-color:#7ed957;
+        padding: 10px;
+        border: 5px whitesmoke;
+        border-radius: 25px;
+    }
+        input#enviar:hover {
+                color:white;
+                border-radius: 15px;
+            }
+button {
+    padding: 10px;
+    border: 5px #f79426;
+    border-radius: 25px;
+}
+    button:hover {
+            background-color:#f79426;
+            color:white;
+            border-radius: 15px;
+        }
